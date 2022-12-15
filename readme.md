@@ -1,5 +1,7 @@
 # Run Directus on watchmode with Docker-Compose
 
+## Run director and DB
+
 `docker-compose up`
 
 ## Extensions development
