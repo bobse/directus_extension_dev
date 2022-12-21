@@ -20,7 +20,7 @@ services:
     pgadmin:
         image: dpage/pgadmin4:latest
         volumes:
-            - ./volumes/pgadmin:/var/lib/postgresql/data
+            - ./volumes/pgadmin:/var/lib/pgadmin
         environment:
             - PGADMIN_DEFAULT_PASSWORD=directus
             - PGADMIN_DEFAULT_EMAIL=dev@devix.co
