@@ -1,2 +1,3 @@
 /extensions
-/postgres_data
+/volumes/**
+.env
